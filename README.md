@@ -15,3 +15,7 @@ Make support of arm apps on x86 and AVD for android 11
 	* ADB doesn't work anymore, after Module is enabled and AVD rebooted
 	* to test the LibNDK, copy your armeabi-v7a APKs **before** the module is enabled, to the AVD with adb push
 * arm64-v8a APKs are still crashing
+
+* ## Example 
+* 
+* ![DEMO](https://github.com/ALEX5402/libndk_translation_Module/blob/master/image.png)
