@@ -1,6 +1,6 @@
 # LibNDK Translation for arm64-v8a,armeabi-v7a,armeabi
-### newbit @ xda-developers
-Installs the Libhoodjni functions into your AVD.
+
+Installs the Libhoodjni combined with libndk functions into your AVD.
 
 ### Description
 Make support of arm apps on x86 and AVD for android 11
