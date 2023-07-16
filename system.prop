@@ -1,4 +1,5 @@
 # This file will be read by resetprop
+# do not change anything
 
 ro.odm.product.cpu.abilist=x86_64,x86,arm64-v8a,armeabi-v7a,armeabi
 ro.odm.product.cpu.abilist32=x86,armeabi-v7a,armeabi
@@ -12,7 +13,7 @@ ro.vendor.product.cpu.abilist=x86_64,x86,arm64-v8a,armeabi-v7a,armeabi
 ro.vendor.product.cpu.abilist32=x86,armeabi-v7a,armeabi
 ro.vendor.product.cpu.abilist64=x86_64,arm64-v8a
 
-ro.dalvik.vm.native.bridge=libndk_translation.so
+ro.dalvik.vm.native.bridge=libhoudini.so
 ro.enable.native.bridge.exec=1
 ro.ndk_translation.version=0.2.2
 

@@ -1,9 +1,9 @@
 # LibNDK Translation for arm64-v8a,armeabi-v7a,armeabi
 ### newbit @ xda-developers
-Installs the libndk_translation functions into your AVD.
+Installs the Libhoodjni functions into your AVD.
 
 ### Description
-Installs the libndk_translation functions into your AVD, Android 10 API 29
+Make support of arm apps on x86 and AVD for android 11
 
 ### Notes
 * rc file is not needed anymore, mount binfmt_misc and register copies are now in service.sh
