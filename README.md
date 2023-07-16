@@ -12,9 +12,8 @@ Make support of arm apps on x86 and AVD for android 11
 * /system/lib/liblog.so and /system/lib64/liblog.so are added
 	* due to **cannot locate symbol "__android_log_set_logger"** Error, liblog.so is needed
 	* [__android_log_set_logger](https://developer.android.com/ndk/reference/group/logging#group___logging_1ga0e29961fa7bd5904bfc142d795af1fd6) is available since API level 30.
-	* ADB doesn't work anymore, after Module is enabled and AVD rebooted
-	* to test the LibNDK, copy your armeabi-v7a APKs **before** the module is enabled, to the AVD with adb push
-* arm64-v8a APKs are still crashing
+	* ADB is fixed now now it support with adb
+	* to test flash module and install your arm apps everything is working almost fine arm64v6a working
 
 * ## Example 
 * 
